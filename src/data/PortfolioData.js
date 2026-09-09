@@ -1,11 +1,11 @@
-export const clinicData = {
-    clinicName: "CarePlus Clinic",
+export const portfolioData = {
+    logoName: "Portfolio",
   
-    doctorName: "Dr. John Doe",
+    Name: "Kunal Kumar Das",
   
-    qualification: "MBBS, MD",
+    qualification: "B.Sc,Dip in ETE",
   
-    specialty: "Eye Specialist & Surgeon",
+    Technical: "Frontend Developer",
   
     phone: "+919836480557",
   

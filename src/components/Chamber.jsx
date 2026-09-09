@@ -1,5 +1,5 @@
 import React from 'react'
-import { clinicData } from '../data/ClinicData'
+import { portfolioData } from '../data/PortfolioData'
 
 const Chamber = () => {
   return (
@@ -11,7 +11,7 @@ const Chamber = () => {
       </h2>
 
       <div className="mt-10 flex justify-center items-center">
-        {clinicData.chambers.map((chamber) => (
+        {portfolioData.chambers.map((chamber) => (
           <div
             key={chamber.name}
             className="rounded-xl border p-6"

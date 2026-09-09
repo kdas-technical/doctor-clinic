@@ -1,22 +1,22 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { clinicData } from './../data/ClinicData';
+import { portfolioData } from "../data/PortfolioData";
 
 const Navbar = () => {
   const [open, setOpen]=useState(false)
   const links = [
     ["Home", "#home"],
     ["About", "#about"],
-    ["Services", "#services"],
+    ["Skills", "#skills"],
     ["Chamber", "#chamber"],
-    ["Appointment", "#appointment"],
+    ["Projects", "#projects"],
     ["Contact", "#contact"],
   ];
   return (
     <nav className="sticky top-0 z-50 bg-white shadow">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
         <a href="#home" className="text-xl font-bold">
-          {clinicData.clinicName}
+          {portfolioData.logoName}
         </a>
 
         <div className="hidden gap-6 md:flex">

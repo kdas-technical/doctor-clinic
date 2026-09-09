@@ -1,5 +1,5 @@
 import React from 'react'
-import { clinicData } from '../data/ClinicData'
+import { portfolioData } from '../data/PortfolioData'
 const Services = () => {
   return (
     <section id="services" className="bg-slate-50 px-5 py-20">
@@ -8,7 +8,7 @@ const Services = () => {
           Our Services
         </h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {clinicData.services.map((service) => (
+          {portfolioData.services.map((service) => (
            <div key={service} className='rounded-xl bg-white p-6 shadow-sm'>
                <h3 className="text-xl font-semibold">
                 {service}
