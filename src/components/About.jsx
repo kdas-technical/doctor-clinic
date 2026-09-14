@@ -15,9 +15,9 @@ const About = () => {
         <p> lorem ipsum lorem ipsum lorem psum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p> <br />
         <p>lorem ipsum lorem ipsum lorem psum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
         
-        <a href='#' className='mx-5 bg-orange-700 inline-block cursor-pointer rounded-lg px-4 py-2 mt-4'>
+        <a href='#' className='mx-5 bg-blue-500 text-white inline-block cursor-pointer rounded-lg px-4 py-2 mt-4'>
        Download Resume </a>
-       <a href='mailto:abc@gmail.com' className='bg-transparent border-2 border-orange-600 text-orange-600 font-semibold inline-block cursor-pointer rounded-lg px-4 py-2 mt-4'>
+       <a href='mailto:abc@gmail.com' className='bg-transparent border-2 border-blue-600 text-blue-600 font-semibold inline-block cursor-pointer rounded-lg px-4 py-2 mt-4'>
        Contact </a>
         </div>
       </div>

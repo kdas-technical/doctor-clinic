@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a href={`tel:${portfolioData.phone}`}
             className="rounded-lg bg-blue-600 px-6 py-3 text-white">
-            Call Clinic
+            Call
           </a>
           <a href={`https://wa.me/${portfolioData.whatsapp}`}  target="_blank"
             rel="noreferrer"

@@ -8,7 +8,6 @@ const Navbar = () => {
     ["Home", "#home"],
     ["About", "#about"],
     ["Skills", "#skills"],
-    ["Chamber", "#chamber"],
     ["Projects", "#projects"],
     ["Contact", "#contact"],
   ];
